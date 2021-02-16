@@ -5,8 +5,6 @@ files:
   destination: /home/ec2-user/node-website
 - source: /package.json
   destination: /home/ec2-user/node-website
-- source: /public/
-  destination: /home/ec2-user/node-website/public
 - source: /scripts/requirements.txt
   destination: /home/ec2-user/scripts
 hooks:
